@@ -1,0 +1,148 @@
+
+*{margin: 0;}
+header{
+    display: flex; 
+    justify-content: space-around; 
+    height: 100px; 
+    background-color: rgb(56, 56, 238); 
+    color: aliceblue; 
+    width: 100%; 
+    padding-top: 30px; 
+    font-size: 20px;
+}
+#f{
+    margin-right: 10px;
+}
+#F{
+    margin-left: 50px;
+}
+.d1{
+    display: flex;
+}
+a{
+    color: aliceblue;
+    font-size: 15px;
+}
+#pass{
+    font-size: 20px;
+}
+.bt{
+    color: aliceblue; 
+    background-color: blue; 
+    height: 20px;
+    margin-top: 25px;
+    width: 50px; 
+    margin-left: 10px;
+}
+#email{
+    margin-right: 50px; font-size: 20px;
+}
+img{
+    width: 40px; 
+    height: 40px; 
+    margin-top: 50px; 
+    margin-left: 50px; 
+    margin-right: 10px;
+}
+h2{
+    width: 550px;
+}
+#nbr{
+    width: 300px; margin-top: 10px;
+}
+#psw{
+    width: 300px;
+    margin-top: 10px; 
+    font-size: 20px;
+}
+
+.color{
+	color: #385898;
+}
+#b{
+    display: flex; 
+    margin-left: 50px; 
+    justify-content: space-around; 
+    font-size: 25px;
+}
+#g{
+    margin-top: 90px;
+}
+#d{
+    margin-top: 50px; 
+    margin-left: 70px; 
+    padding-right: 40px; 
+    font-size: 30px;
+}
+.genderb{
+	color: #7f8693;
+	font-weight: bold;
+    display: flex; 
+    flex-direction: column;
+}
+#bod{
+    margin-top: 20px; 
+    display: flex; 
+    flex-direction: column;
+}
+.condition{
+	font-size: 12px;
+	position: relative;
+    margin-top: 20px;
+}
+#signup{
+	font-family: lato;
+	color: white;
+	font-size: 22px;
+	text-shadow: 2px 2px 3px gray;
+	border: 1px solid black;
+	border: 1px solid #3A6E21;
+	border-radius: 4px 4px 4px 4px;
+	background: #5ea03d;
+	padding: 5px;
+	width: 5cm;
+	position: relative;
+    margin-top: 20px;
+}
+.dernier{
+	color: #3c3c3d;
+	font-size: 14px;
+	position: relative;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 0.5px solid black;
+}
+#gen{
+    margin-top: 20px;
+}
+#bt{
+    background-color: hsl(100, 45%, 43%); 
+    width: 70px; 
+    height: 30px; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+    color: aliceblue;
+}
+@media screen and (max-width: 700px) {
+    header{
+        display: block; 
+        padding-left: 20px;
+        height: 220px;
+        width: 100%;
+    }
+    #b{
+        display: block;
+    }
+    h2{
+        width: 300px;
+    }
+    .d1{
+        display: flex; flex-direction: column;
+    }
+    #psw{
+        width: 250px;
+    }
+    #nbr{
+        width: 250px;
+    }
+}
